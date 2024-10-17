@@ -61,7 +61,7 @@ function App() {
 
     initializeApp();
 
-    // Clean up timeout to prevent memory leaks
+
     return () => {
       if (splashTimeout) {
         clearTimeout(splashTimeout);

@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { Text, TextStyle } from 'react-native';
+import { Text} from 'react-native';
 import { scale, moderateScale } from 'react-native-size-matters';
 
 /**
@@ -71,6 +71,7 @@ const TypoText = ({
     const fontWeight = FONT_WEIGHTS[weight];
 
     const textStyles = {
+        fontFamily: 'WixMadeforDisplay-VariableFont_wght',
         fontSize,
         fontWeight,
         color,
@@ -83,4 +84,4 @@ const TypoText = ({
     return <Text style={textStyles}>{children}</Text>;
 };
 
-export const Typography = memo(TypoText)
+export const Typography = memo(TypoText);
