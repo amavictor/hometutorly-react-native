@@ -4,7 +4,7 @@ This project was started using **React Native CLI (latest version: 0.75)** and r
 
 ### Prerequisites
 - **Node.js** (v21.4.0+)
-- **Yarn** (Ama's preferred package manager)
+- **Yarn** (My preferred package manager)
 - **Xcode** (for iOS development)
 - **Android Studio** (for Android development)
 - **React Native CLI** (to run the commands)
